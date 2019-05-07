@@ -27,7 +27,7 @@ Word embeddings are numerical vectors which can represent words or concepts in a
   * [Preprocessing text file](#preprocessing-text-file)
   * [Syntactic and Semantic analogies evaluation](#syntactic-and-semantic-analogies-evaluation)
   * [Semantic Similarity evaluation](#semantic-similarity-evaluation)
-  * [Word Sense Disambiguation](#word-sense-disambiguation)
+  * [Word Sense Disambiguation evaluation](#word-sense-disambiguation-evaluation)
 
 ---
 
