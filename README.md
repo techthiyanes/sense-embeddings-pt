@@ -1,23 +1,22 @@
 # Sense-specific word embeddings for Portuguese
 Implementation of Sense-specific word embeddings for Portuguese
 
-This repository consists of preprocessing and evaluation scripts used in the paper entitled Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks.
+This repository consists of preprocessing and evaluation scripts used in the paper entitled Sense-specific word embeddings for Portuguese.
 The preprocessing script cleaned corpora, tokenized and sentenced it.
-Evaluation scripts can be used to measure the representativeness of a word embedding model.
+Evaluation scripts can be used to measure the representativeness of a sense embedding model.
 
 ---
 
 ## About the paper
 
 Paper can be read:
-https://arxiv.org/abs/1708.06025
 
 Trained embeddings models:
-http://nilc.icmc.usp.br/embeddings
+https://drive.google.com/open?id=1RROg4thS5Cj-gqByCEGMaaFxCJNlFZhD
 
 ### Abstract
 
-Word embeddings have been found to provide meaningful representations for words in an efficient way; therefore, they have become common in Natural Language Processing systems. In this paper, we evaluated different word embedding models trained on a large Portuguese corpus, including both Brazilian and European variants. We trained 31 word embedding models using FastText, GloVe, Wang2Vec and Word2Vec. We evaluated them intrinsically on syntactic and semantic analogies and extrinsically on POS tagging and sentence semantic similarity tasks. The obtained results suggest that word analogies are not appropriate for word embedding evaluation; task-specific evaluations appear to be a better option.
+Word embeddings are numerical vectors which can represent words or concepts in a low-dimensional continuous space. These vectors are able to capture useful syntactic and semantic information, such as regularities in natural language. Although very useful in many applications, the traditional approaches for generating word embeddings like Word2Vec, GloVe, Wang2Vec and FastText have a strict drawback: they produce a single vector representation for a given word ignoring the fact that ambiguous words can assume different meanings for which different vectors should be generated. This mixture of meanings can be a problem for several applications. For example, in a language understanding task, by using the embedding of an ambiguous word like the Portuguese word banco (bank), all possible meanings of it -- such as financial institution, blood bank, or an item of furniture -- will be mixed in a single numerical vector, causing a wrong semantic interpretation of the sentence in which it occurs. In this paper we present the first experiments carried out for generating sense-specific word embeddings for Portuguese, in which, instead of word occurrences, word senses are represented in sense vectors. Our experiments show that sense vectors outperform traditional word vectors in syntactic and semantic tasks, proving that the language resource generated here can improve the performance of NLP tasks in Portuguese.
 
 ---
 
