@@ -39,6 +39,10 @@ python -m spacy download pt
 
 ## Usage
 
+### Trained embeddings models
+
+Download the pre-trained sense vectors and add them to the models folder.
+
 ### Preprocessing text file
 
 in order to train embedding models
