@@ -1424,7 +1424,6 @@ class Word2VecKeyedVectors(WordEmbeddingsKeyedVectors):
     @classmethod
     def load_word2vec_format(cls, fname, fvocab=None, binary=False, encoding='utf8', unicode_errors='strict',
                              limit=None, datatype=REAL):
-        print('HERE')
         """Load the input-hidden weight matrix from the original C word2vec-tool format.
 
         Warnings

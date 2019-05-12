@@ -33,6 +33,8 @@ Word embeddings are numerical vectors which can represent words or concepts in a
 
 ## Installation
 ```
+virtualenv venv -p python3
+source venv/bin/activate
 pip install -r requirements.txt
 python -m spacy download pt
 ```
@@ -43,11 +45,25 @@ python -m spacy download pt
 
 Download the pre-trained sense vectors and add them to the models folder.
 
-### Preprocessing text file
+### Preprocessing text file (in order to train embedding models)
 
-in order to train embedding models
+Script used for cleaning corpus
+
+All emails are mapped to a EMAIL token.
+All numbers are mapped to 0 token.
+All urls are mapped to URL token.
+Different quotes are standardized.
+Different hiphen are standardized.
+HTML strings are removed.
+All text between brackets are removed.
+All sentences shorter than 5 tokens were removed.
 ```
 python preprocessing.py <input_file.txt> <output_file.txt>
+```
+
+Annotate the corpus with PoS tags with the nlpnet tool
+```
+python postagging.py <input_folder.txt> <output_folder.txt>
 ```
 
 ### Syntactic and Semantic analogies evaluation

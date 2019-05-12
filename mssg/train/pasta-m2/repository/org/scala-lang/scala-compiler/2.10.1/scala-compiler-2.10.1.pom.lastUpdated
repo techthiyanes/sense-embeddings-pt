@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 17 18:05:15 AMT 2018
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1521324312850
+https\://repo.maven.apache.org/maven2/.lastUpdated=1521324315427
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.lastUpdated=1521324314771
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.error=
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.lastUpdated=1521324313795
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.scala-lang\:scala-compiler\:pom\:2.10.1 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/org/scala-lang/scala-compiler/2.10.1/scala-compiler-2.10.1.pom , ReasonPhrase\:Forbidden.
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.error=

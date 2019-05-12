@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 17 18:01:50 AMT 2018
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1521324108989
+https\://repo.maven.apache.org/maven2/.lastUpdated=1521324110581
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.lastUpdated=1521324110199
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.error=
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.lastUpdated=1521324109613
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact com.fasterxml\:oss-parent\:pom\:10 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/com/fasterxml/oss-parent/10/oss-parent-10.pom , ReasonPhrase\:Forbidden.
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.error=

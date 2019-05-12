@@ -7,12 +7,8 @@ from metrics import Metrics
 ambiguous_word = []
 ambiguous_word.append(('obra', 575741, 3)) #reforma, construção
 ambiguous_word.append(('obra', 3841417, 4)) #pintura, quadro
-#ambiguous_word.append(('obra', 575741, 3)) #reforma, construção
-#ambiguous_word.append(('obra', 3841417, 2)) #pintura, quadro
 ambiguous_word.append(('centro', 2993546, 3)) #instituição
 ambiguous_word.append(('centro', 8523483, 2)) #local na área central
-#ambiguous_word.append(('centro', 2993546, 2)) #instituição
-#ambiguous_word.append(('centro', 8523483, 3)) #local na área central
 ambiguous_word.append(('estado', 24720, 4)) #modo, situação, estado de emergência, estado de saúde
 ambiguous_word.append(('estado', 8654360, 3)) #estados de um país
 ambiguous_word.append(('presidente', 10467179, 2)) #presidente do Brasil
@@ -101,7 +97,7 @@ def get_lexicalsample(ambiguous_word):
     mfs = 0
     qtde_sentence = 0
     mfs_sense = 0
-    with open('../../../../datasets/CSTSim.txt', 'r', encoding='utf-8') as f:
+    with open('../../../../datasets/CSTNews.txt', 'r', encoding='utf-8') as f:
         line = f.readline()
         for line in f:
             elements = line.split(' ')
@@ -143,8 +139,10 @@ def get_ambiguousword():
         print('Ambiguous word: ', i)
         get_lexicalsample(i)
 
-#get_neighbor('salto')
+get_neighbor('acidente')
+get_neighbor('aumento')
+
 #get_lexicalsample('centro')
-get_ambiguousword()
+#get_ambiguousword()
 
 #python lexical_sample.py

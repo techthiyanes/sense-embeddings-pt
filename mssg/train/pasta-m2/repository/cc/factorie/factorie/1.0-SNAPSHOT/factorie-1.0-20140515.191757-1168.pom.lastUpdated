@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 17 18:01:24 AMT 2018
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1521324082236
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.lastUpdated=1521324084012
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.lastUpdated=1521324082849
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.error=
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact cc.factorie\:factorie\:pom\:1.0-20140515.191757-1168 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/cc/factorie/factorie/1.0-SNAPSHOT/factorie-1.0-20140515.191757-1168.pom , ReasonPhrase\:Forbidden.

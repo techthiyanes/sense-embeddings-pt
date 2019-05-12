@@ -1,0 +1,15 @@
+The file name is in the following format:
+vectors.<MODEL_NAME>.<DIMENSIONALITY>D.<No. of words for which we have learned
+multiple embeddings>.gz
+
+
+The first in each file is in the following format:
+<Total Number of words><Dimensionality>
+The next lines are in the following format:
+<word> <no. of senses>
+<global vector>
+<first sense vector>
+<first sense cluster center>
+<second sense vector>
+<second sense cluster center>
+.......

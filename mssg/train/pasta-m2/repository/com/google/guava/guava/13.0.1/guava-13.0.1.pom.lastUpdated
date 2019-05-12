@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 17 18:02:07 AMT 2018
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1521324126162
+https\://repo.maven.apache.org/maven2/.lastUpdated=1521324127748
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.lastUpdated=1521324127383
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.error=
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.lastUpdated=1521324126742
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact com.google.guava\:guava\:pom\:13.0.1 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/com/google/guava/guava/13.0.1/guava-13.0.1.pom , ReasonPhrase\:Forbidden.
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.error=

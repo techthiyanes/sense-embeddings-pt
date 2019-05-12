@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 17 18:01:59 AMT 2018
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1521324117557
+https\://repo.maven.apache.org/maven2/.lastUpdated=1521324119162
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.lastUpdated=1521324118800
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.error=
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/.lastUpdated=1521324118146
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact com.thoughtworks.paranamer\:paranamer\:pom\:2.3 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom , ReasonPhrase\:Forbidden.
+https\://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/.error=

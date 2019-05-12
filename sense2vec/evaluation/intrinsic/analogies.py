@@ -1,10 +1,7 @@
 #!/usr/bin/python
 
 import logging
-#import gensim
 import argparse
-#from .keyedvectorss2v import WordEmbeddingsKeyedVectors
-#from gensim.models import FastText
 
 try:
     from .keyedvectorss2v import *
@@ -57,4 +54,4 @@ if __name__ == "__main__":
 
     model.accuracy(testset, restrict_vocab=restriction, case_insensitive=True)
 
-#python analogies.py -m ../../../models/sense2vec_s300_ptbreu_sg.txt -t ../../../datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r
+#python analogies.py -m ../../../models/sense2vec_s300_ptbreu_sg-window10.txt -t ../../../datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r
