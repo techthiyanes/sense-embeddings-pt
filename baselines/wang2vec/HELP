@@ -1,0 +1,1 @@
+./word2vec -train combined.txt -output wang2vec_s300.txt -type 3 -size 300 -window 5 -negative 5 -nce 0 -hs 0 -sample 1e-3 -threads 1 -binary 0 -iter 5 -cap 0

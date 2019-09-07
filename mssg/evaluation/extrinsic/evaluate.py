@@ -74,6 +74,7 @@ if __name__ == '__main__':
     embeddings = KeyedVectors.load_word2vec_format(emb,
                                                    binary=False,
                                                    unicode_errors="ignore")
+    #embeddings = FastText.load_fasttext_format(emb)
 
     # Loading evaluation data and parsing it
     with open('%sassin-pt%s-train.pkl' % (DATA_DIR, lang), 'rb') as fp:

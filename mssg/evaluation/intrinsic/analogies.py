@@ -48,6 +48,8 @@ if __name__ == "__main__":
         binary=False,
         unicode_errors='ignore')
 
+    #model = FastText.load_fasttext_format(model_path)
+
     model.accuracy(testset, restrict_vocab=restriction, case_insensitive=True)
 
-#python analogies.py -m ../../../models/word2vec_s300_ptbreu_sg.txt -t ../../../datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r
+#python analogies.py -m ../../../models/wang2vec_s300_ptbreu_sg.txt -t ../../../datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r

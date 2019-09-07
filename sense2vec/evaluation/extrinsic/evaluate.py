@@ -122,4 +122,4 @@ if __name__ == '__main__':
     pairs_sys = read_xml('%soutput.xml' % DATA_DIR, True)
     eval_similarity(pairs_gold, pairs_sys)
 
-#python evaluate.py ../../../models/sense2vec_s300_ptbreu_sg.txt br
+#python evaluate.py ../../../models/sense2vec_s300_ptbreu_sg.txt pt

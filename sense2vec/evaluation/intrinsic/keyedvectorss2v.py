@@ -1254,6 +1254,8 @@ class WordEmbeddingsKeyedVectors(BaseKeyedVectors):
                         if predicted != expected:
                             logger.debug("%s: expected %s, predicted %s", a + ' ' + b + ' ' + c + ' ', expected, predicted)
                         break
+                #if sec.startswith(': gram1-adjective-to-adverb'):
+                    #logger.info("%s: expected %s, predicted %s", a + ' ' + b + ' ' + c + ' ', expected, predicted)
                 if predicted == expected:
                     section['correct'].append((a, b, c, expected))
                 else:

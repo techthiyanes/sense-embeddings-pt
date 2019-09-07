@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     # set logging definitions
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
-                        level=logging.INFO)
+                        level=logging.DEBUG)
 
     # load and evaluate
     model = Word2VecKeyedVectors.load_word2vec_format(
@@ -54,4 +54,4 @@ if __name__ == "__main__":
 
     model.accuracy(testset, restrict_vocab=restriction, case_insensitive=True)
 
-#python analogies.py -m ../../../models/sense2vec_s300_ptbreu_sg-window10.txt -t ../../../datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r
+#python analogies.py -m ../../../models/sense2vec_s300_ptbreu_sg.txt -t ../../../datasets/analogies/testset/LX-4WAnalogiesBr_syntactic.txt -r

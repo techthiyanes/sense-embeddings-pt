@@ -51,8 +51,8 @@ int save_gradsq = 0; // By default don't save squared gradient values
 int use_binary = 0; // 0: save as text files; 1: save as binary; 2: both. For binary, save both word and context word vectors.
 int model = 2; // For text file output only. 0: concatenate word and context vectors (and biases) i.e. save everything; 1: Just save word vectors (no bias); 2: Save (word + context word) vectors (no biases)
 int checkpoint_every = 0; // checkpoint the model for every checkpoint_every iterations. Do nothing if checkpoint_every <= 0
-real eta = 0.05; // Initial learning rate
-real alpha = 0.75, x_max = 100.0; // Weighting function parameters, not extremely sensitive to corpus, though may need adjustment for very small or very large corpora
+real eta = 0.025; // Initial learning rate
+real alpha = 0.75, x_max = 100.0; // 0.75 Weighting function parameters, not extremely sensitive to corpus, though may need adjustment for very small or very large corpora
 real *W, *gradsq, *cost;
 long long num_lines, *lines_per_thread, vocab_size;
 char *vocab_file, *input_file, *save_W_file, *save_gradsq_file;

@@ -27,8 +27,11 @@ ambiguous_word.append(('pontos', 13610162, 3)) #pontos percentuais
 ambiguous_word.append(('anos', 4924103, 3)) #anos: idade
 ambiguous_word.append(('anos', 15203791, 4)) #anos: nos últimos anos...
 
-sense_vectors_fpath = "../../../../models/multisense_s300_ptbr_sg.sense_vectors"
-word_vectors_fpath = "../../../../models/word2vec_s300_ptbr_sg.txt"
+sense_vectors_fpath = "../../../../models/WSD/multisense_s300_ptbr_sg.sense_vectors"
+word_vectors_fpath = "../../../../models/WSD/word2vec_s300_ptbr_sg.txt"
+#sense_vectors_fpath = "../../../../models/ptbreu_s300_sg.sense_vectors"
+#word_vectors_fpath = "../../../../models/word2vec_s300_ptbreu_sg.txt"
+
 sv = sensegram.SenseGram.load_word2vec_format(sense_vectors_fpath, binary=False)
 wv = KeyedVectors.load_word2vec_format(word_vectors_fpath, binary=False, unicode_errors="ignore")
 
@@ -139,10 +142,10 @@ def get_ambiguousword():
         print('Ambiguous word: ', i)
         get_lexicalsample(i)
 
-get_neighbor('acidente')
-get_neighbor('aumento')
+#get_neighbor('obra')
+#get_neighbor('centro')
 
-#get_lexicalsample('centro')
-#get_ambiguousword()
+#get_lexicalsample('obra')
+get_ambiguousword()
 
 #python lexical_sample.py
