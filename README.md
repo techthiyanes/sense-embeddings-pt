@@ -1,7 +1,7 @@
-# Sense-specific word embeddings for Portuguese
-Implementation of Sense-specific word embeddings for Portuguese
+# Sense embeddings for Portuguese
+Implementation of Sense embeddings for Portuguese
 
-This repository consists of preprocessing and evaluation scripts used in the paper entitled Sense-specific word embeddings for Portuguese.
+This repository consists of preprocessing and evaluation scripts used in the paper entitled Sense embeddings for Portuguese.
 The preprocessing script cleaned corpora, tokenized and sentenced it.
 Evaluation scripts can be used to measure the representativeness of a sense embedding model.
 
